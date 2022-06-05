@@ -10,7 +10,7 @@ import ListIcon from '@mui/icons-material/List';
 import { DarkModeContext } from '../../context/darkModeContext';
 
 const Navbar = () => {
-  const { darkMode, dispatch } = useContext(DarkModeContext)
+  const { dispatch } = useContext(DarkModeContext)
   return (
     <div className='navbar'>
       <div className='wrapper'>
